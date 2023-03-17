@@ -2,6 +2,7 @@ import Navbar from "./navbar.jsx";
 import Home from './home'
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import Create from "./create.jsx";
+import BlogDetails from "./blogDetails.jsx";
 
 function App() {
   return (
@@ -17,6 +18,10 @@ function App() {
             </Route>
             <Route path='/create'
                    element={<Create/>}
+            >
+            </Route>
+            <Route path='/blogs/:id'
+                   element={<BlogDetails/>}
             >
             </Route>
           </Routes>
