@@ -49,6 +49,18 @@
 
 .blog-preview h2 {
     font-size: 20px;
-    color: #f1356d;
+    color: #f88379;
     margin-bottom: 8px;
+}
+
+/* BLOG DETAILS */
+
+.blog-details h2 {
+    font-size: 20px;
+    color: #f88379;
+    margin-bottom: 10px;
+}
+
+.blog-details div {
+    margin: 20px 0;
 }
