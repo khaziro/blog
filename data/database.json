@@ -1,0 +1,16 @@
+{
+  "blogs" : [
+    {
+      "title": "Hello!",
+      "body": "As a self-taught React developer, I am eager to gain experience and build upon the skills I have acquired through my personal projects. I am seeking an internship or junior developer position where I can contribute to the growth of a company while also learning from experienced professionals. I am a hard worker and committed to continuously improving my knowledge and abilities.",
+      "author": "Renato-Niicolas",
+      "id": 1
+    },
+    {
+      "title": "Hobbies!",
+      "body": "As we go through our daily routine, hobbies play an important role in providing us with a means of relaxation and escape from the stresses of everyday life. Here are some of my favorite hobbies that I enjoy doing in my free time:\nLive streaming: I love to interact with my audience and share my thoughts and experiences through live streaming. It gives me a sense of connection and community.\nGaming: Video games are not just a source of entertainment for me, but they also provide a challenging and immersive experience that helps me sharpen my problem-solving skills.\nCooking: Cooking is a way for me to unwind and be creative in the kitchen. It allows me to experiment with new flavors and techniques, and share delicious meals with my loved ones.\nAnimal caregiver: I have a deep love and respect for animals and enjoy taking care of them. Being an animal caregiver gives me a sense of fulfillment and purpose.\nVideo editing: Video editing allows me to express my creativity by combining different elements to create something unique and visually appealing.",
+      "author": "Renato",
+      "id": 2
+    }
+  ]
+}
