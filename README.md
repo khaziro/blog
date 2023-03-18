@@ -24,7 +24,11 @@ To run this application, you need to have Node.js and Yarn installed on your com
     JSON Server
 ## Example 
 Here is a link to see an example of the project:
-https://user-images.githubusercontent.com/93095948/226106081-45f9bee3-1f5b-471a-8c05-1cb3ff734e4b.mp4
+
+
+https://user-images.githubusercontent.com/93095948/226106509-362cc444-4677-43bb-8d86-0fcf2a50b384.mp4
+
+
 
 ## Acknowledgments
 This project was created as part of a tutorial on building a simple blog with Vite and React.
