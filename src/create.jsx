@@ -1,24 +1,28 @@
 import {useState} from "react";
+import {useNavigate} from "react-router-dom";
 
 const Create = () => {
-  const [title, setTitle] = useState('')
-  const [body, setBody] = useState('')
-  const [author, setAuthor] = useState('renato')
-  const [isPending, setIsPending] = useState(false)
+  const [title, setTitle] = useState('');
+  const [body, setBody] = useState('');
+  const [author, setAuthor] = useState('renato');
+  const [isPending, setIsPending] = useState(false);
+  const navigate = useNavigate();
 
   const handleSubmit = (e) => {
-    e.preventDefault()
-    const blog = {title, body, author}
+    e.preventDefault();
+    const blog = {title, body, author};
 
-    setIsPending(true)
+    setIsPending(true);
 
     fetch('http://localhost:8000/blogs', {
       method: 'POST',
       headers: {"Content-Type": "application/json"},
       body: JSON.stringify(blog)
     }).then(() => {
-      console.log('New blog added')
-      setIsPending(false)
+      console.log('New blog added');
+      setIsPending(false);
+      navigate('/')
+
     })
   }
 
